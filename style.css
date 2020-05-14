@@ -1,0 +1,361 @@
+header {
+  text-align: center;
+  margin: 25px;
+  margin-left: 0em;
+  margin-right: 0em;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  line-height: 20px;
+  font-family: "Baloo Chettan 2", cursive;
+}
+
+header h2 {
+  text-shadow: 3px 3px 5px white;
+  font-size: 40px;
+  font-weight: bolder;
+}
+
+i {
+  font-size: 200%;
+  margin: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+nav {
+  word-spacing: 20px;
+}
+
+#cover {
+  background-image: url(./iStock_76355911_LARGE.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+
+  height: 100vh;
+  font-family: "Baloo Chettan 2", cursive;
+  box-shadow: 10px 10px 10px black;
+  border-radius: 50px;
+}
+
+#cover h2 {
+  text-align: left;
+  position: relative;
+  left: 20px;
+  top: 30vh;
+  font-weight: bolder;
+  font-size: 36px;
+  text-shadow: 2px 2px 2px black;
+}
+
+#cover p {
+  text-align: left;
+  position: relative;
+  left: 20px;
+  top: 30vh;
+  width: 600px;
+  font-weight: bold;
+  font-size: larger;
+  font-size: 20px;
+  text-shadow: 2px 2px 2px black;
+}
+
+#cover a {
+  position: relative;
+  left: 200px;
+  top: 35vh;
+  background-color: tomato;
+  border-radius: 20px;
+  font-weight: bolder;
+  padding: 20px;
+  color: white;
+}
+
+#cover a:hover {
+  font-size: 120%;
+  background-color: yellow;
+  color: black;
+  box-shadow: 10px 10px 10px black;
+}
+
+#story {
+  padding: 20px;
+  font-family: "Baloo Chettan 2", cursive;
+  color: white;
+  text-shadow: 3px 3px 3px black;
+}
+
+#text {
+  display: inline-block;
+  width: 400px;
+  position: relative;
+  box-shadow: 10px 10px 10px black;
+  border-radius: 50px;
+}
+
+#text h2 {
+  font-size: 35px;
+  position: relative;
+  top: -20px;
+  left: 10px;
+  text-shadow: 2px 2px 2px black;
+}
+
+#story p {
+  text-align: left;
+  display: inline-block;
+  width: 300px;
+  position: relative;
+  top: -20px;
+  left: 10px;
+}
+
+#story img {
+  width: 300px;
+  padding: 30px;
+  margin: 20px;
+  border-radius: 50px;
+  box-shadow: 10px 10px 10px black;
+}
+
+#story img:last-child {
+  position: relative;
+  top: 30px;
+}
+
+html {
+  background-color: grey;
+  font-family: "Baloo Chettan 2", cursive;
+}
+
+header a:hover,
+i:hover {
+  border-radius: 5px;
+  font-weight: bolder;
+  background-color: yellow;
+  color: black;
+  box-shadow: 10px 10px 10px black;
+}
+
+@media screen and (max-width: 610px) {
+  #cover p {
+    width: 85vw;
+    position: relative;
+    top: 30vw;
+  }
+  #cover h2 {
+    position: relative;
+    top: 30vw;
+  }
+  #cover a {
+    position: relative;
+    top: 40vw;
+  }
+  #samplemenu .menu{
+      
+      width: 80vw;
+      margin: 5vw;
+      
+  }
+  #footer h3 , li{
+      width: 100vw;
+      font-size: 80%;
+      text-align: left;
+  }
+  #footer2 p{
+      
+      float: left;
+  }
+}
+@media screen and (max-width: 280px) {
+  #cover p {
+    width: 85vw;
+    font-size: 16px;
+  }
+  #cover h2 {
+    width: 250px;
+    font-size: 20px;
+  }
+  #cover a {
+    position: relative;
+    top: 40vw;
+    left: 90px;
+  }
+  #story {
+    width: 300px;
+  }
+  #text {
+    width: 250px;
+  }
+  #text h2 {
+    font-size: 22px;
+    position: relative;
+    top: 5px;
+  }
+  #text p {
+    width: 230px;
+    font-size: 16px;
+  }
+  #story img {
+    position: relative;
+    left: -25px;
+    width: 280px;
+    padding: 5px;
+    margin: 5px;
+  }
+  #story img:first-child {
+    position: relative;
+    top: 20px;
+  }
+}
+#menuintro {
+  background-image: url(./190904122627-01-vegetarian-diet-stock.jpg);
+  background-repeat: no-repeat;
+
+  width: 95vw;
+  height: 70vh;
+  margin: auto;
+  margin-left: 1vw;
+
+  position: relative;
+  background-position: 50%;
+  background-size: cover;
+
+  border-radius: 50px;
+  box-shadow: 10px 10px 10px black;
+}
+#menuintro p,
+#menuintro h2 {
+  width: 40vw;
+  position: relative;
+  top: 20vh;
+  left: 3vw;
+  color: rgb(254, 254, 255);
+  font-weight: bolder;
+  text-shadow: 4px 4px 5px black;
+  font-family: "Baloo Chettan 2", cursive;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 20px;
+  padding: 0.6vw;
+}
+#menuintro h2 {
+  font-size: 3vw;
+}
+#menuintro p {
+  font-size: 1.5vw;
+}
+#menuintro a {
+  display: inline-block;
+  position: relative;
+  left: 70vw;
+
+  background-color: tomato;
+  border-radius: 20px;
+  padding: 1vw;
+  font-weight: bolder;
+  font-size: 2vw;
+  color: white;
+  text-shadow: 4px 4px 5px black;
+}
+#menuintro a:hover {
+  font-size: 2.5vw;
+  background-color: yellow;
+  color: black;
+  box-shadow: 10px 10px 10px black;
+}
+@media screen and (max-width: 500px) {
+  #menuintro p,
+  #menuintro h2 {
+    font-size: 3vw;
+    width: 60vw;
+  }
+  #menuintro h2 {
+    font-size: 4vw;
+  }
+  #menuintro a {
+    display: inline-block;
+    position: relative;
+    left: 25vw;
+    top: 30vw;
+  }
+}
+#samplemenu {
+  width: 100vw;
+  color: aliceblue;
+}
+#samplemenu div {
+  word-spacing: 2px;
+
+  display: inline-block;
+  width: 30%;
+  height: 30px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 20px;
+  height: unset;
+  /* padding: 2px; */
+  margin: 2px;
+  color: aliceblue;
+  padding-bottom: 10px;
+}
+#samplemenu h2 {
+  text-align: center;
+}
+.menu {
+  width: 100px;
+  height: 100px;
+  padding-left: 10px;
+}
+#heading {
+  font-size: 40px;
+  font-weight: bolder;
+  text-shadow: 10px 10px 10px black;
+}
+html {
+  overflow-x: hidden;
+}
+#footer h3{
+    text-align: center;
+}
+#footer li {
+    display: inline-block;
+    color: white;
+    
+}
+#footer{
+    margin-top: 80px ;
+    margin-bottom: 50px;
+    width: 100vw;
+    text-align: center;
+    word-spacing: 5px;
+    color: white;
+    font-size: larger;
+    font-weight: bolder;
+}
+#footer2{
+    width: 100vw;
+}
+#footer2 p{
+    display: inline-block;
+    margin: 20px;
+    padding:10px;
+    font-weight: bolder;
+}
+#right{
+    float: right;
+}
+@media screen and (max-width:885px){
+    #menuintro p{
+        font-size: 15px;
+    }
+    #menuintro a{
+        position: relative;
+        top: 100px;
+    }
+    #samplemenu .menu{
+        width: 80vw;
+        margin: 3vw;
+    }
+}
